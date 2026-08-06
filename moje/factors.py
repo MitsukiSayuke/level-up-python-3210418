@@ -5,7 +5,7 @@ def factors (number):
   while dzielnik <= number:
     if number % dzielnik == 0:
       lista = lista + [dzielnik]  # trzeba wstawić starą zmienna i zrobić tą zmienną + element
-      # list.append(dzielnik)
+      # lista.append(dzielnik)
       number = number // dzielnik  # / zwraca liczbę fload a // liczbę całkowitą
     else:
       dzielnik = dzielnik +1
